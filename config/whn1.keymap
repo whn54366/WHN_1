@@ -1,0 +1,17 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp F7  &kp F3  &kp F1  &kp D
+                &kp S   &kp W   &kp A   &kp LSHIFT    /* 功能键1映射为左Shift */
+                &kp LCTRL        &kp I   &kp O   &kp P   /* 功能键2映射为左Ctrl */
+                &kp H   &kp J   &kp K   &kp L
+            >;
+        };
+    };
+};

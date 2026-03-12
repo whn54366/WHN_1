@@ -1,0 +1,6 @@
+if SHIELD_WHN1
+
+config ZMK_KEYBOARD_NAME
+    default "whn1"
+
+endif # SHIELD_WHN1
